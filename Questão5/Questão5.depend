@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1575488091 source:c:\users\aluno\desktop\questão4\questão5\main.cpp
+	<iostream>
+	"Trabalhador.h"
+	"TrabalhadorPorHora.h"
+	"TrabalhadorAssalariado.h"
+	<locale.h>
+
+1575482637 source:c:\users\aluno\desktop\questão4\questão5\src\trabalhador.cpp
+	"Trabalhador.h"
+	<string>
+	<iostream>
+
+1575482637 c:\users\aluno\desktop\questão4\questão5\include\trabalhador.h
+	<string>
+	<iostream>
+
+1575485100 source:c:\users\aluno\desktop\questão4\questão5\src\trabalhadorassalariado.cpp
+	"TrabalhadorAssalariado.h"
+	<string>
+	<iostream>
+
+1575485100 c:\users\aluno\desktop\questão4\questão5\include\trabalhadorassalariado.h
+	"Trabalhador.h"
+	<string>
+	<iostream>
+
+1575488406 source:c:\users\aluno\desktop\questão4\questão5\src\trabalhadorporhora.cpp
+	"TrabalhadorPorHora.h"
+	<string>
+	<iostream>
+
+1575485905 c:\users\aluno\desktop\questão4\questão5\include\trabalhadorporhora.h
+	"Trabalhador.h"
+	<string>
+	<iostream>
+
