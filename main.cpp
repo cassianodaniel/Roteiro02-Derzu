@@ -1,14 +1,20 @@
 #include <iostream>
+#include "FiguraGeometrica.h"
+#include "Triangulo.h"
+#include "Circulo.h"
+#include "Quadrado.h"
 #include <string>
-#include "Pessoa.h"
-#include "Endereco.h"
+#include <locale.h>
 
 using namespace std;
 
-int main()
-{
-    Pessoa objeto1 = Pessoa("Daniel", Endereco(), "998354294\n");
-    Endereco endereco1 = Endereco("PARAIBA","JOAO PESSOA","MANGABEIRA","RUA DERZU","CEP 00000", 71);
-    cout << "Nome: " << objeto1.getNome() << "\nTelefone: " << objeto1.getTelefone();
-    cout << "Endereco Completo:\n" << endereco1.toString();
+int main(){
+    setlocale(LC_ALL,"Portuguese");
+    Triangulo triangulo = Triangulo(2.5,2.0);
+    Circulo circulo = Circulo(2,1.0);
+    Quadrado quadrado = Quadrado(4);
+    cout << "Área do triângulo: " << triangulo.calcularArea() << "m." << endl;
+    cout << "Área do círculo: " << circulo.calcularArea() << "m." << endl;
+    cout << "Área do quadrado: " <<quadrado.calcularArea() << "m." << endl;
+    return 0;
 }
