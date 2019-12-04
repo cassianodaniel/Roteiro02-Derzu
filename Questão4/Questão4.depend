@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1575481044 source:c:\users\aluno\desktop\questão4\questão4\main.cpp
+	<iostream>
+	"FiguraGeometrica.h"
+	"Triangulo.h"
+	"Circulo.h"
+	"Quadrado.h"
+	<string>
+
+1575479121 c:\users\aluno\desktop\questão4\questão4\include\figurageometrica.h
+	<string>
+
+1575481044 source:c:\users\aluno\desktop\questão4\questão4\src\circulo.cpp
+	"Circulo.h"
+	<string>
+
+1575481058 c:\users\aluno\desktop\questão4\questão4\include\circulo.h
+	<string>
+	<iostream>
+	"FiguraGeometrica.h"
+
+1575479220 source:c:\users\aluno\desktop\questão4\questão4\src\figurageometrica.cpp
+	"FiguraGeometrica.h"
+	<string>
+
+1575480802 source:c:\users\aluno\desktop\questão4\questão4\src\quadrado.cpp
+	"Quadrado.h"
+	<string>
+
+1575480821 c:\users\aluno\desktop\questão4\questão4\include\quadrado.h
+	<string>
+	<iostream>
+	"FiguraGeometrica.h"
+
+1575480736 source:c:\users\aluno\desktop\questão4\questão4\src\triangulo.cpp
+	"Triangulo.h"
+	<string>
+
+1575480736 c:\users\aluno\desktop\questão4\questão4\include\triangulo.h
+	<string>
+	<iostream>
+	"FiguraGeometrica.h"
+
