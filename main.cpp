@@ -1,21 +1,14 @@
 #include <iostream>
-#include "Pedido.h"
-#include "MesaDeRestaurante.h"
-#include "RestauranteCaseiro.h"
 #include <string>
+#include "Pessoa.h"
+#include "Endereco.h"
 
 using namespace std;
 
 int main()
 {
-    RestauranteCaseiro restaurante1 = RestauranteCaseiro();
-    Pedido p1(1,"Suco de Laranja", 1,2.00);
-    Pedido p2(2,"Suco de Uva", 2, 3.00);
-    Pedido p3(3,"Suco de Laranja",4,2.00);
-    restaurante1.adicionaAoPedido(p1, 0);
-    restaurante1.adicionaAoPedido(p2, 0);
-    restaurante1.adicionaAoPedido(p3, 0);
-    cout << "Valor total: " << restaurante1.calculaTotalRestaurante() << "R$." <<endl;
-
-    return 0;
+    Pessoa objeto1 = Pessoa("Daniel", Endereco(), "998354294\n");
+    Endereco endereco1 = Endereco("PARAIBA","JOAO PESSOA","MANGABEIRA","RUA DERZU","CEP 00000", 71);
+    cout << "Nome: " << objeto1.getNome() << "\nTelefone: " << objeto1.getTelefone();
+    cout << "Endereco Completo:\n" << endereco1.toString();
 }
